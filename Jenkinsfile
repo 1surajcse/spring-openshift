@@ -23,8 +23,7 @@ pipeline {
         stage('Run') { 
             steps {
                 // 
-                bat "java -jar .\target\spring-openshift
-.jar"
+                bat "java -jar ./target/spring-openshift.jar"
             }
         }
     }
